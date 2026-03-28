@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What is CSS3 code?</title>
+    <!-- Linking CSS with HTML -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Style Tag -->
+    <style>
+      /* 2nd: second periority */
+      p {
+        color: yellowgreen;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- TODO: Self element styled (1st: higher periority) -->
+    <p style="color: red; background-color: aquamarine">Red Text</p>
+
+    <!-- TODO: Class & ID -->
+    <div class="content-01">
+      <span>This content has class</span>
+    </div>
+    <div id="content-02">
+      <span>This content has id</span>
+    </div>
+
+    <!-- TODO: Font Styles -->
+    <p id="fontStyle">Font Has Style</p>
+
+    <!-- TODO: Box Model -->
+    <div class="box-model">
+      <p>Hello From Paragraph</p>
+    </div>
+
+    <!-- TODO: Variable CSS -->
+    <strong>Variable CSS</strong>
+  </body>
+</html>
