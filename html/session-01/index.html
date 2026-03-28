@@ -1,0 +1,226 @@
+<!-- For Version Declaration -->
+<!doctype html>
+<!-- Main Tag with language attribute -->
+<html lang="en">
+  <!-- Head Tag -->
+  <head>
+    <!-- Declare Arabic Language -->
+    <meta charset="UTF-8" />
+    <!-- Declare Responsive page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Declare Description -->
+    <meta name="description" content="First Session in Frontend Crash Course" />
+    <!-- Title Tag -->
+    <title>What is HTML5 code?</title>
+  </head>
+  <!-- Body Tag -->
+  <body>
+    <!-- TODO: Text -->
+
+    <!-- Paragraph Tag (Normal Text) -->
+    <p>Hello World</p>
+
+    <!-- Heading Tags (For Titles) -->
+    <h1>Head 01</h1>
+    <h2>Head 02</h2>
+    <h3>Head 03</h3>
+    <h4>Head 04</h4>
+    <h5>Head 05</h5>
+    <h6>Head 06</h6>
+
+    <!-- Span Tag (Normal & Inline Text) -->
+    <span>Simple Text</span>
+
+    <!-- Stylish Tags -->
+    <i>Italic Text</i>
+    <em>Italic Text 2</em>
+    <b>Bold Text</b>
+    <strong>Strong Text 2</strong>
+    <small>Strong Text 2</small>
+    <del>Deleted Text</del>
+    <pre>Prepare for Code Text</pre>
+    <code>Code Text</code>
+
+    <!-- ************************************************************************* -->
+
+    <!-- TODO: Container -->
+
+    <!-- Div Tag -->
+    <div>Hello From Div</div>
+
+    <div>
+      <p>Hello From P in Div</p>
+    </div>
+
+    <div>
+      <h1>Title</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <span>hello!</span>
+    </div>
+
+    <!-- ************************************************************************* -->
+
+    <!-- TODO: Image -->
+
+    <!-- Img Tag -->
+    <img src="./html-5.png" />
+    <img src="./html-5.png" alt="HTML5-icon" />
+    <img src="./html-5.png" alt="HTML5-icon" width="100" height="100" />
+    <img
+      src="./html-5.png"
+      alt="HTML5-icon"
+      width="100"
+      height="100"
+      loading="lazy"
+    />
+
+    <!-- ************************************************************************* -->
+
+    <!-- TODO: Video -->
+    <video controls width="500" height="300">
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+
+    <!-- ************************************************************************* -->
+
+    <!-- TODO: Audio -->
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- ************************************************************************* -->
+
+    <!-- TODO: Iframe (Embeded) -->
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/CCLlJhi2qZI?si=Q8c7eDyfQeeV5te6"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <!-- ************************************************************************* -->
+
+    <!-- TODO: Button -->
+
+    <!-- Default: Button Type -->
+    <button>Normal Button</button>
+    <!-- Submit Type for (Forms) submitting data -->
+    <button type="submit">Form Button</button>
+    <!-- Reset Type for (Forms) reseting data -->
+    <button type="reset">Reset Button</button>
+
+    <!-- ************************************************************************* -->
+
+    <!-- TODO: Links -->
+
+    <!-- Default: Self Target -->
+    <a href="https://youturkey11.vercel.app/">My Portfolio</a>
+    <!-- Blank Target to open (New Tab) -->
+    <a href="https://youturkey11.vercel.app/" target="_blank">My Portfolio</a>
+
+    <!-- ************************************************************************* -->
+
+    <!-- TODO: Lists -->
+
+    <!-- Unordered List -->
+    <ul>
+      <!-- List Item -->
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+      <li>Forth Item</li>
+    </ul>
+    <!-- Unordered List (With New Style) -->
+    <ul style="list-style-type: circle">
+      <!-- List Item -->
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+      <li>Forth Item</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol>
+      <!-- List Item -->
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+      <li>Forth Item</li>
+    </ol>
+    <!-- Ordered List (With New Style) -->
+    <ol style="list-style-type: georgian">
+      <!-- List Item -->
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+      <li>Forth Item</li>
+    </ol>
+
+    <!-- ************************************************************************* -->
+
+    <!-- TODO: From -->
+    <form>
+      <!-- Label -->
+      <label>Label For Input</label>
+
+      <!-- Input -->
+      <input type="text" />
+      <input type="number" />
+      <input type="email" />
+      <input type="password" />
+      <input type="url" />
+      <input type="button" />
+      <input type="color" />
+      <input type="date" />
+      <input type="file" />
+      <input type="range" />
+      <input type="reset" />
+
+      <!-- Input Attribute -->
+      <input type="email" required />
+      <input type="password" minlength="8" />
+      <input type="text" placeholder="Username" />
+
+      <!-- Checkbox Inputs -->
+      <div>
+        <label>Check Multiple</label>
+        <input type="checkbox" name="frontend" />
+        <input type="checkbox" name="backend" />
+      </div>
+
+      <!-- Radio Inputs -->
+      <div>
+        <label>Select Gender</label>
+        <div>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+        </div>
+      </div>
+
+      <!-- Textarea -->
+      <textarea name="" id=""></textarea>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <div>
+        <label for="msg">Message</label>
+        <textarea name="message" id="msg" cols="30" rows="10"></textarea>
+      </div>
+    </form>
+  </body>
+</html>
