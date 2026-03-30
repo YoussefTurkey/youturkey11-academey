@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ar" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>Exercise: Interactive To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="task-manager">
+      <div class="app-header">
+        <h1>Interactive To-Do List</h1>
+        <div class="sub">
+          ✅ Create your tasks — click to complete — delete easily — automatic
+          saving in localStorage! 🗂️
+        </div>
+      </div>
+
+      <div class="add-section">
+        <div class="input-group">
+          <input
+            type="text"
+            class="task-input"
+            id="taskInput"
+            placeholder="Example: Finishing the report, reading a book, studying JavaScript..."
+            autocomplete="off"
+          />
+          <button class="add-btn" id="addTaskBtn">➕ Add Task</button>
+        </div>
+      </div>
+
+      <div class="stats-bar">
+        <span>📋 Total Tasks: <span id="totalCount">0</span></span>
+        <span>✅ Completed: <span id="doneCount">0</span></span>
+      </div>
+
+      <div class="tasks-container">
+        <ul class="task-list" id="taskList"></ul>
+        <div class="clear-all">
+          <button class="clear-btn" id="clearAllBtn">🗑 Clear All Tasks</button>
+        </div>
+      </div>
+      <footer>
+        🔄 Tasks are automatically saved in the browser | Click on the text to
+        change completion status | Delete button is dedicated
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
