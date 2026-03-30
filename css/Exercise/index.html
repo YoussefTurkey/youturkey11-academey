@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise: Animated Card Layout</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main Content -->
+    <main>
+      <!-- Card -->
+      <form>
+        <section class="img">
+          <img
+            src="./images/image-product-desktop.jpg"
+            id="desktop"
+            alt="product-1"
+          />
+          <img
+            src="./images/image-product-mobile.jpg"
+            id="mobile"
+            alt="product-2"
+          />
+        </section>
+
+        <section class="info">
+          <p id="slogan">perfume</p>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p id="desc">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+
+          <div class="price">
+            <strong>$149.99</strong>
+            <span>$169.99</span>
+          </div>
+
+          <button type="submit">
+            <i class="fa-solid fa-cart-arrow-down"></i>
+            <span>Add to Cart</span>
+          </button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
