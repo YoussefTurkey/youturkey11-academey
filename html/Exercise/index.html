@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise: Personal Profile / About Me Page</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>YouTurkey11</h1>
+      <nav>
+        <ul>
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section id="bio">
+        <h2>Youssef Turkey</h2>
+        <p>
+          I am a passionate web developer with experience in creating responsive
+          and user-friendly websites.
+        </p>
+        <img src="profile.png" alt="Youssef Turkey" width="100" height="100" />
+      </section>
+
+      <section id="skills">
+        <h2>My Skills</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Proficiency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Intermediate</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              id="name"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              id="email"
+              required
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              placeholder="Enter your message"
+              id="message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Youssef Turkey. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
